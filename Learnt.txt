@@ -1,0 +1,45 @@
+Part 1 :
+
+Git:
+
+how to clone the repository from the GitHub to git
+
+how to add a new file - add to staging area- To commit- to push origin main
+
+Insert -> Add-> Commit->Push->Pull(GitHub to git)
+
+Part 2 :
+
+- Now How to create folder and files manually in the local directory
+
+- Folder contains some files like index.html  and style.css and all.
+
+- Now those file will be untracked U 
+
+- We should make this folder to be got folder, then only those file are tracked.
+
+- To Make the folder git folder --> We should create local repository .
+
+- steps to create the repository -> "git init" cmd
+
+- Then the files will be tracked, After the as usual we can make the file to staging area by using "git add."->"git commit -m "message" -> "
+-- important  note--
+
+Next will pushing process. 
+
+---We need to connect this local repository to the remote git hub to push:
+
+- So Create the repository in GitHub like "Githubemc2". Take the url HTTPS.
+
+- Then use this cmd "git remote add origin https://github.com/M-JohnsonDavid/githubemc2.git"
+
+
+- Check "git branch"- > It will shows master. But there will be main only bcoz git master updated to main.
+
+- So we need to change the name using "git branch -M main"
+
+- Now you push - cmd "git push origin main" It will work fine
+
+
+
+
